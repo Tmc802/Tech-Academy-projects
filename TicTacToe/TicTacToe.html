@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" type="text/css" href="MyNewProject.css">
+<link rel="stylesheet" type="text/css" href="TicTacToe.css">
 
 
 
@@ -31,21 +31,21 @@
 	<TABLE class="center-board">
 
 <tr>	
-		<td></td> 
-		<td></td> 
-		<td></td>
+		<td id="1" onclick="placeX()"></td> 
+		<td id="2" onclick="placeX2()"></td> 
+		<td id="3" onclick="placeX()"></td>
 </tr>	
 
 <tr>
-		<td></td> 
-		<td></td> 
-		<td></td>
+		<td id = "4" onclick ="placeX()"></td> 
+		<td id = "5"></td> 
+		<td id = "6"></td>
 </tr>
 
 <tr>
-		<td></td> 
-		<td></td> 
-		<td></td>
+		<td id = "7"></td> 
+		<td id = "8"></td> 
+		<td id = "9"></td>
 </tr>
 	</TABLE>
 
@@ -67,6 +67,15 @@ document.getElementById("removeButton").innerHTML = "";
 
 };
 
+function placeX() {
+document.getElementById("1").innerHTML = "X"; 
+}; 
+
+function placeX2() {
+document.getElementById("2").innerHTML = "X"; 
+};
+
+
 </script>
 
 
@@ -76,9 +85,5 @@ document.getElementById("removeButton").innerHTML = "";
 
 </body>
 
-
-SELECT a1.species_name, a2.nutrition_type
-FROM tbl_species a1
-INNER JOIN tbl_ nutrition a2 ON a2.nutrition_id = a1.species_nutrition
 
 </html>
