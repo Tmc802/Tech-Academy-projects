@@ -1,0 +1,71 @@
+
+.black-background {
+	background: black;
+}
+
+
+/*Container styling*/
+.Tic-Tac-Toe-container {
+	border: solid;
+	width: 600px;
+	height: 600px;
+	border-color: green;
+	margin: auto;
+	border-radius: 20px;
+}
+
+/*Start Buton Styling*/
+.centerStartButton {
+	margin: 275px 0 0 260px;
+	position: absolute;
+	font-size: 30px;
+}
+
+.centerStartButton:hover {
+	margin: 275px 0 0 260px;
+	position: absolute;
+	font-size: 31px;
+	cursor: pointer;
+}
+
+/*text style*/
+.center {
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+}
+
+.white-text {
+	color: white;
+}
+
+h3 {
+	margin: 10px 50px 10px 145px;
+	position: absolute;
+	color: white;
+}
+
+/*tic-tac-toe borad styling*/
+td {
+	height: 150px;
+	width: 150px;
+	background-color: rgba(0,250,0,0.9);
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+
+.center-board {
+	margin: 0px 40px 0px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
